@@ -1,0 +1,28 @@
+{
+  "name": "smartcontract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "t": "truffle",
+    "test": "truffle test",
+    "testnet": "ganache-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielgonzalezcampos/SmartContracts"
+  },
+  "keywords": [
+    "solidity",
+    "truffle",
+    "open-zeppeling"
+  ],
+  "author": "Gabriel Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "truffle": "^5.1.31"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.9.1"
+  }
+}
